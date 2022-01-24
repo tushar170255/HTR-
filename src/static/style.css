@@ -1,0 +1,40 @@
+* {
+    background-color: 1BE3CD;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    padding: 40px;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: auto;
+    max-height: 120%;
+    max-width: 120%;
+    min-width: 64;
+    min-height: 64;
+}
+
+#image-input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#image-selector {
+  opacity: 0;
+  position: absolute;
+}
+
+#image-input label {
+    background-color: grey;
+    color: black;
+    border: solid;
+}
+
+#predict-button {
+    color: black;
+    background-color: grey;
+}
